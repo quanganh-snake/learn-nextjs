@@ -49,4 +49,6 @@
 
 4. Lưu ý
 
-    - Nếu dùng **Catch all routes** thì thôi dùng **Option catch all routes**
+    - Nếu dùng **Catch all routes** thì thôi dùng **Option catch all routes** và ngược lại
+
+    - Nếu dùng **single parameter route** thì thôi dùng **Multiple parameter route** và ngược lại
