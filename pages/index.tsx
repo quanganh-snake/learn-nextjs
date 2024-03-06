@@ -34,10 +34,40 @@ const Home: NextPage = () => {
                     Get started by editing <code className={styles.code}>pages/index.js</code>
                 </p>
 
-                <div style={{ marginTop: '2000px' }}>
-                    <Link href="/posts">Go to Page Post</Link>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                    <Link
+                        href="/posts"
+                        style={{
+                            padding: '10px',
+                            borderRadius: '22px',
+                            backgroundColor: '#d9d9d9',
+                            textAlign: 'center',
+                        }}
+                    >
+                        Go to Page Post
+                    </Link>
 
-                    <button type="button" onClick={goToRouteDetailPage}>
+                    <Link
+                        href="/about"
+                        style={{
+                            padding: '10px',
+                            borderRadius: '22px',
+                            backgroundColor: '#d9d9d9',
+                            textAlign: 'center',
+                        }}
+                    >
+                        Go to Page About
+                    </Link>
+
+                    <button
+                        type="button"
+                        onClick={goToRouteDetailPage}
+                        style={{
+                            padding: '10px',
+                            borderRadius: '22px',
+                            backgroundColor: '#d9d9d9',
+                        }}
+                    >
                         Go to Page route detail
                     </button>
                 </div>
