@@ -27,9 +27,7 @@ export default function handler(
     return new Promise((resolve) => {
         req.headers.cookie = ''
 
-
         const handleLoginResponse: ProxyResCallback = (proxyRes, req, res) => {
-            // 
             let body = '';
             // Data đang được API trả về = streaming data
             proxyRes.on('data', function (chunk) {
@@ -52,7 +50,7 @@ export default function handler(
                             message: 'Login successfully!'
                         })
                 } catch (error) {
-                    (res as NextApiResponse).status(500).json({
+                    ; (res as NextApiResponse).status(500).json({
                         message: 'Something went wrong!'
                     })
                 }

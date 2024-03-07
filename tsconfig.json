@@ -25,6 +25,9 @@
             ],
             "@/models/*": [
                 "./models/*"
+            ],
+            "@/api/*": [
+                "./api-client/*"
             ]
         }
     },
