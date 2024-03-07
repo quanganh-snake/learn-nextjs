@@ -9,8 +9,8 @@ export function MainLayout({ children }: LayoutProps) {
                 style={{
                     display: 'flex',
                     flexDirection: 'row',
-                    gap: '20px',
-                    padding: '6px',
+                    gap: '60px',
+                    padding: '6px 40px',
                     backgroundColor: 'Highlight',
                 }}
             >
@@ -27,6 +27,11 @@ export function MainLayout({ children }: LayoutProps) {
                 <li>
                     <Link href="/posts" style={{ color: '#d9d9d9', fontWeight: 700 }}>
                         Go To Post
+                    </Link>
+                </li>
+                <li>
+                    <Link href="/login" style={{ color: '#d9d9d9', fontWeight: 700 }}>
+                        Go To Page Login
                     </Link>
                 </li>
             </ul>
