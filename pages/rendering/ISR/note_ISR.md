@@ -100,3 +100,5 @@ if (router.isFallback) {
     return <ComponentLoading />;
 }
 ```
+
+## 5. CDN Cache
